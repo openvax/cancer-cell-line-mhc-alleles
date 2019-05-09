@@ -10,3 +10,5 @@ should match the alleles in TCLP, unless some alleles by chance had no predicted
 
 Also, the original neoepitope catalogue appears to contain some duplicate fields which make it harder to parse, so I have included
 a "fixed" version of the CSV in this repository. 
+
+**Caution**: The HLA types extracted for the "neoepitope catalog" do not always match of all the alleles listed in the earlier 2014 paper [A catalog of HLA type, HLA expression, and neo-epitope candidates in human cancer cell lines](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4355981/). I don't know the source of discrepancy but looking at that paper it does seem that the neoepitope catalog included in their supplement has the same alleles as this repository. 
